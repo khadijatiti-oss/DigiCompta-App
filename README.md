@@ -1,14 +1,8 @@
-# DigiCompta CGNC
+# DigiCompta CGNC - Digi-App-2
 
-Prototype académique de traitement comptable de factures marocaines (CGNC/PCGE), avec données fictives. Il calcule des écritures proposées, un grand livre, une balance générale, ainsi que des états simplifiés. **Ce projet n'est pas un logiciel comptable ou fiscal certifié.** Faites vérifier les comptes et règles fiscales par une personne qualifiée avant tout usage réel.
+Prototype académique marocain de traitement comptable (CGNC/PCGE), avec données fictives. Il propose des écritures, permet leur validation manuelle, et produit des états simplifiés. **Ce n'est pas un référentiel professionnel** ; il sert à l'apprentissage et au prototypage.
 
-## État actuel
-
-Le dépôt contient les modules Python de base pour générer un jeu de données fictif, proposer les écritures de factures, puis calculer le grand livre, la balance et les états simplifiés. Il ne contient pas encore l'interface web décrite dans le projet initial (`app.py` / Streamlit), le pipeline complet avec validations, ni les modules d'écritures complémentaires (ouverture, règlements et inventaire). Les rapports CSV sont générés localement et ne sont pas suivis dans Git.
-
-## Prérequis et lancement
-
-Python 3.10+ recommandé.
+## Lancer l'application
 
 ```bash
 python -m venv .venv
@@ -16,32 +10,22 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell : .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-
-python generate_dataset.py
-python moteur_ecritures.py data/factures_atlas.csv output/
-python etats_comptables.py output/journal.csv output/
-python bilan_cpc.py output/balance_generale.csv output/
+streamlit run app.py
 ```
 
-Les sorties seront créées dans `output/`. Le moteur produit des écritures au statut `PROPOSEE`; ce dépôt ne fournit pas encore d'écran permettant de les valider. `bilan_cpc.py` calcule un bilan et un CPC simplifiés à partir de la balance.
+L'interface accepte CSV/Excel, PDF texte, PDF scannés et images. Les scans exigent Tesseract installé en plus des paquets Python (sur Streamlit Community Cloud, `packages.txt` demande Tesseract et les données de langue française).
 
-## Fichiers principaux
+Pour générer les factures PDF de test :
 
-- `generate_dataset.py` — génère 30 factures fictives dans `data/factures_atlas.csv`.
-- `plan_comptable.py` — comptes et correspondance catégories/comptes.
-- `moteur_ecritures.py` — contrôles et génération des écritures proposées.
-- `etats_comptables.py` — grand livre et balance générale.
-- `bilan_cpc.py` — CPC et bilan simplifiés.
-- `requirements.txt` — dépendances Python.
+```bash
+python generer_factures_pdf.py
+python simuler_scans.py
+```
 
-## Données et limites
+Tests disponibles : `python test_extraction.py` et `python test_ocr.py`. Le second nécessite Tesseract. Vérifiez systématiquement les champs extraits et les écritures, surtout pour les scans.
 
-Les données générées sont fictives. Les états sont pédagogiques et incomplets : notamment, ils ne constituent pas des états de synthèse légaux et n'incluent pas tous les traitements fiscaux/comptables. Les comptes, taux de TVA et règles applicables doivent être vérifiés au regard des textes marocains en vigueur. N'utilisez pas de factures réelles ou de données personnelles dans cette version de démonstration.
+## Modules
 
-## Suite prévue
+`app.py` (Streamlit), `import_factures.py` (routage des imports), `extracteur_pdf.py` (PDF/images vers lignes), `ocr.py` (Tesseract), `pipeline.py` (journal complet et statuts), `ecritures_complementaires.py` (ouverture/règlements/inventaire), `moteur_ecritures.py` (génération des écritures), `plan_comptable.py` (comptes), `bilan_cpc.py` et `export_excel.py` (états comptables), `generate_dataset.py` (jeu fictif).
 
-1. Ajouter les modules d'écritures complémentaires et le pipeline de validation.
-2. Créer l'interface web, ses tests automatisés et les instructions de déploiement.
-3. Ajouter séparément la démo HTML du navigateur et documenter ses dépendances et limites.
-
-Toutes les sociétés et informations du jeu de démonstration sont fictives.
+Les validations ne sont pas persistées dans une base de données. Les états sont simplifiés, et les paramètres comptables/fiscaux doivent être validés par un professionnel. N'utilisez que des données fictives dans ce prototype.

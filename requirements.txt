@@ -1,1 +1,8 @@
-pandas>=2.0,<3.0
+pandas
+streamlit>=1.50
+numpy
+openpyxl
+pdfplumber
+reportlab
+pytesseract
+pillow
