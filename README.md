@@ -1,4 +1,4 @@
-# DigiCompta CGNC - Digi-App-2
+# DigiCompta CGNC - DigiCompta App
 
 Prototype académique marocain de traitement comptable (CGNC/PCGE), avec données fictives. Il propose des écritures, permet leur validation manuelle, et produit des états simplifiés. **Ce n'est pas un référentiel professionnel** ; il sert à l'apprentissage et au prototypage.
 
