@@ -1,0 +1,72 @@
+facture_id,type,date_facture,numero_fournisseur,tiers_nom,tiers_ice,tiers_if,tiers_ville,ligne,designation,categorie,quantite,prix_unitaire_ht,taux_tva,mode_paiement,date_echeance,total_ttc_facture
+FV-2026-001,VENTE,2026-01-18,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Ramette papier A4 80g (carton de 5),marchandises,9,112.00,20,virement,2026-01-18,2289.60
+FV-2026-001,VENTE,2026-01-18,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Stylo bille bleu (boîte de 50),marchandises,20,45.00,20,virement,2026-01-18,2289.60
+FV-2026-002,VENTE,2026-01-20,,Papeterie Ennahda,756820525898319,48939494,Salé,1,Ramette papier A4 80g (carton de 5),marchandises,27,112.00,20,chèque,2026-03-21,8870.40
+FV-2026-002,VENTE,2026-01-20,,Papeterie Ennahda,756820525898319,48939494,Salé,2,Marqueurs tableau blanc (boîte de 12),marchandises,18,96.00,20,chèque,2026-03-21,8870.40
+FV-2026-002,VENTE,2026-01-20,,Papeterie Ennahda,756820525898319,48939494,Salé,3,Cahier 96 pages grands carreaux (lot de 10),marchandises,24,65.00,20,chèque,2026-03-21,8870.40
+FV-2026-002,VENTE,2026-01-20,,Papeterie Ennahda,756820525898319,48939494,Salé,4,Stylo bille bleu (boîte de 50),marchandises,24,45.00,20,chèque,2026-03-21,8870.40
+FV-2026-003,VENTE,2026-02-02,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,1,Cahier 96 pages grands carreaux (lot de 10),marchandises,7,65.00,20,espèces,2026-03-04,546.00
+FV-2026-004,VENTE,2026-02-14,,Clinique Al Amal SA,001304118955799,06593976,Rabat,1,Marqueurs tableau blanc (boîte de 12),marchandises,3,96.00,20,virement,2026-04-15,2415.60
+FV-2026-004,VENTE,2026-02-14,,Clinique Al Amal SA,001304118955799,06593976,Rabat,2,Classeur à levier A4,marchandises,25,14.00,20,virement,2026-04-15,2415.60
+FV-2026-004,VENTE,2026-02-14,,Clinique Al Amal SA,001304118955799,06593976,Rabat,3,Agrafeuse professionnelle,marchandises,25,55.00,20,virement,2026-04-15,2415.60
+FV-2026-005,VENTE,2026-02-27,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Stylo bille bleu (boîte de 50),marchandises,9,45.00,20,effet,2026-04-28,9670.80
+FV-2026-005,VENTE,2026-02-27,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Chemises cartonnées (lot de 100),marchandises,29,70.00,20,effet,2026-04-28,9670.80
+FV-2026-005,VENTE,2026-02-27,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,3,Marqueurs tableau blanc (boîte de 12),marchandises,34,96.00,20,effet,2026-04-28,9670.80
+FV-2026-005,VENTE,2026-02-27,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,4,Clé USB 32 Go,marchandises,40,59.00,20,effet,2026-04-28,9670.80
+FV-2026-006,VENTE,2026-03-08,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Clé USB 32 Go,marchandises,32,59.00,20,effet,2026-05-07,7881.60
+FV-2026-006,VENTE,2026-03-08,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Agrafeuse professionnelle,marchandises,34,55.00,20,effet,2026-05-07,7881.60
+FV-2026-006,VENTE,2026-03-08,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,3,Chemises cartonnées (lot de 100),marchandises,35,70.00,20,effet,2026-05-07,7881.60
+FV-2026-006,VENTE,2026-03-08,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,4,Calculatrice scientifique,marchandises,3,120.00,20,effet,2026-05-07,7881.60
+FV-2026-007,VENTE,2026-03-10,,École Les Lauriers SARL,645060454146590,85380129,Témara,1,Ramette papier A4 80g (carton de 5),marchandises,8,112.00,20,virement,2026-03-10,3128.40
+FV-2026-007,VENTE,2026-03-10,,École Les Lauriers SARL,645060454146590,85380129,Témara,2,Clé USB 32 Go,marchandises,29,59.00,20,virement,2026-03-10,3128.40
+FV-2026-008,VENTE,2026-03-11,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Marqueurs tableau blanc (boîte de 12),marchandises,9,96.00,20,chèque,2026-03-11,10150.80
+FV-2026-008,VENTE,2026-03-11,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Cartouche d'encre noire compatible,marchandises,31,245.00,20,chèque,2026-03-11,10150.80
+FV-2026-009,VENTE,2026-03-16,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Clé USB 32 Go,marchandises,37,59.00,20,effet,2026-05-15,7587.60
+FV-2026-009,VENTE,2026-03-16,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Chemises cartonnées (lot de 100),marchandises,34,70.00,20,effet,2026-05-15,7587.60
+FV-2026-009,VENTE,2026-03-16,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,3,Agrafeuse professionnelle,marchandises,32,55.00,20,effet,2026-05-15,7587.60
+FV-2026-010,VENTE,2026-03-17,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,1,Cartouche d'encre noire compatible,marchandises,4,245.00,20,effet,2026-05-16,8900.40
+FV-2026-010,VENTE,2026-03-17,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,2,Agrafeuse professionnelle,marchandises,11,55.00,20,effet,2026-05-16,8900.40
+FV-2026-010,VENTE,2026-03-17,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,3,Clé USB 32 Go,marchandises,40,59.00,20,effet,2026-05-16,8900.40
+FV-2026-010,VENTE,2026-03-17,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,4,Ramette papier A4 80g (carton de 5),marchandises,31,112.00,20,effet,2026-05-16,8900.40
+FV-2026-011,VENTE,2026-03-19,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Cartouche d'encre noire compatible,marchandises,31,245.00,20,espèces,2026-03-19,15159.60
+FV-2026-011,VENTE,2026-03-19,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,2,Agrafeuse professionnelle,marchandises,34,55.00,20,espèces,2026-03-19,15159.60
+FV-2026-011,VENTE,2026-03-19,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,3,Marqueurs tableau blanc (boîte de 12),marchandises,33,96.00,20,espèces,2026-03-19,15159.60
+FV-2026-012,VENTE,2026-03-21,,Cafétéria Bab Rabat SARL,141621052185491,45244106,Rabat,1,Agrafeuse professionnelle,marchandises,22,55.00,20,chèque,2026-05-20,1452.00
+FV-2026-013,VENTE,2026-03-22,,Association Nour pour l'Éducation,642524776472587,71884133,Salé,1,Marqueurs tableau blanc (boîte de 12),marchandises,34,96.00,20,espèces,2026-04-21,3916.80
+FV-2026-014,VENTE,2026-03-25,,Clinique Al Amal SA,001304118955799,06593976,Rabat,1,Classeur à levier A4,marchandises,19,14.00,20,espèces,2026-04-24,7046.40
+FV-2026-014,VENTE,2026-03-25,,Clinique Al Amal SA,001304118955799,06593976,Rabat,2,Chemises cartonnées (lot de 100),marchandises,33,70.00,20,espèces,2026-04-24,7046.40
+FV-2026-014,VENTE,2026-03-25,,Clinique Al Amal SA,001304118955799,06593976,Rabat,3,Marqueurs tableau blanc (boîte de 12),marchandises,25,96.00,20,espèces,2026-04-24,7046.40
+FV-2026-014,VENTE,2026-03-25,,Clinique Al Amal SA,001304118955799,06593976,Rabat,4,Ramette papier A4 80g (carton de 5),marchandises,8,112.00,20,espèces,2026-04-24,7046.40
+FV-2026-015,VENTE,2026-03-28,,École Les Lauriers SARL,645060454146590,85380129,Témara,1,Classeur à levier A4,marchandises,2,14.00,20,espèces,2026-03-28,11280.00
+FV-2026-015,VENTE,2026-03-28,,École Les Lauriers SARL,645060454146590,85380129,Témara,2,Marqueurs tableau blanc (boîte de 12),marchandises,30,96.00,20,espèces,2026-03-28,11280.00
+FV-2026-015,VENTE,2026-03-28,,École Les Lauriers SARL,645060454146590,85380129,Témara,3,Ramette papier A4 80g (carton de 5),marchandises,39,112.00,20,espèces,2026-03-28,11280.00
+FV-2026-015,VENTE,2026-03-28,,École Les Lauriers SARL,645060454146590,85380129,Témara,4,Clé USB 32 Go,marchandises,36,59.00,20,espèces,2026-03-28,11280.00
+FA-2026-001,ACHAT,2026-01-03,F3149,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,1,Calculatrice scientifique,marchandises,89,85.00,20,virement,2026-03-04,13791.60
+FA-2026-001,ACHAT,2026-01-03,F3149,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,2,Marqueurs tableau blanc (boîte de 12),marchandises,48,66.00,20,virement,2026-03-04,13791.60
+FA-2026-001,ACHAT,2026-01-03,F3149,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,3,Classeur à levier A4,marchandises,80,9.50,20,virement,2026-03-04,13791.60
+FA-2026-002,ACHAT,2026-01-05,F5469,Immobilière Hassan SARL,845850037038265,38453557,Rabat,1,Loyer local commercial - janvier 2026,loyer,1,7500.00,20,espèces,2026-03-06,9000.00
+FA-2026-003,ACHAT,2026-01-08,F3623,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,1,Chemises cartonnées (lot de 100),marchandises,105,48.00,20,espèces,2026-03-09,6048.00
+FA-2026-004,ACHAT,2026-01-13,F4222,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,1,Agrafeuse professionnelle,marchandises,69,38.00,20,effet,2026-03-14,9972.00
+FA-2026-004,ACHAT,2026-01-13,F4222,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,2,Clé USB 32 Go,marchandises,39,40.00,20,effet,2026-03-14,9972.00
+FA-2026-004,ACHAT,2026-01-13,F4222,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,3,Chemises cartonnées (lot de 100),marchandises,86,48.00,20,effet,2026-03-14,9972.00
+FA-2026-005,ACHAT,2026-01-18,F2203,Imprimerie Fès Cartonnage SARL,906688281126584,40932448,Fès,1,Stylo bille bleu (boîte de 50),marchandises,69,31.00,20,effet,2026-02-17,2566.80
+FA-2026-006,ACHAT,2026-01-22,F8799,Maghreb Papier SA,263097658280258,22018051,Casablanca,1,Cahier 96 pages grands carreaux (lot de 10),marchandises,23,44.00,20,effet,2026-02-21,9170.40
+FA-2026-006,ACHAT,2026-01-22,F8799,Maghreb Papier SA,263097658280258,22018051,Casablanca,2,Ramette papier A4 80g (carton de 5),marchandises,85,78.00,20,effet,2026-02-21,9170.40
+FA-2026-007,ACHAT,2026-01-28,F3797,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,1,Agrafeuse professionnelle,marchandises,35,38.00,20,chèque,2026-01-28,12340.80
+FA-2026-007,ACHAT,2026-01-28,F3797,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,2,Marqueurs tableau blanc (boîte de 12),marchandises,83,66.00,20,chèque,2026-01-28,12340.80
+FA-2026-007,ACHAT,2026-01-28,F3797,Tech Import Maroc SARL,322808864230048,76452912,Casablanca,3,Cahier 96 pages grands carreaux (lot de 10),marchandises,79,44.00,20,chèque,2026-01-28,12340.80
+FA-2026-008,ACHAT,2026-02-03,F4822,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,1,Clé USB 32 Go,marchandises,99,40.00,20,chèque,2026-04-04,22096.80
+FA-2026-008,ACHAT,2026-02-03,F4822,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,2,Cartouche d'encre noire compatible,marchandises,63,170.00,20,chèque,2026-04-04,22096.80
+FA-2026-008,ACHAT,2026-02-03,F4822,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,3,Chemises cartonnées (lot de 100),marchandises,78,48.00,20,chèque,2026-04-04,22096.80
+FA-2026-009,ACHAT,2026-02-05,F7969,Immobilière Hassan SARL,845850037038265,38453557,Rabat,1,Loyer local commercial - février 2026,loyer,1,7500.00,20,virement,2026-02-05,9000.00
+FA-2026-010,ACHAT,2026-02-06,F9925,Maghreb Papier SA,263097658280258,22018051,Casablanca,1,Chemises cartonnées (lot de 100),marchandises,102,48.00,20,espèces,2026-03-08,14906.40
+FA-2026-010,ACHAT,2026-02-06,F9925,Maghreb Papier SA,263097658280258,22018051,Casablanca,2,Ramette papier A4 80g (carton de 5),marchandises,42,78.00,20,espèces,2026-03-08,14906.40
+FA-2026-010,ACHAT,2026-02-06,F9925,Maghreb Papier SA,263097658280258,22018051,Casablanca,2,Cartouche d'encre noire compatible,marchandises,25,170.00,20,espèces,2026-03-08,14906.40
+FA-2026-011,ACHAT,2026-02-12,F9732,Télécom Maghreb Pro SA,116494157718835,79511174,Rabat,1,Abonnement internet et téléphonie - T1 2026,telecom,1,1850.00,20,chèque,2026-03-14,2220.00
+FA-2026-012,ACHAT,2026-02-17,F1335,Maghreb Papier SA,263097658280258,22018051,Casablanca,1,Cartouche d'encre noire compatible,marchandises,111,170.00,20,effet,2026-02-17,31039.20
+FA-2026-012,ACHAT,2026-02-17,F1335,Maghreb Papier SA,263097658280258,22018051,Casablanca,2,Marqueurs tableau blanc (boîte de 12),marchandises,106,66.00,20,effet,2026-02-17,31039.20
+FA-2026-013,ACHAT,2026-02-20,F7784,Transports Rapides du Bouregreg,688557652373556,96327926,Salé,1,Livraison marchandises Rabat-Casablanca,transport,1,900.00,14,effet,2026-03-22,1026.00
+FA-2026-014,ACHAT,2026-03-03,F2288,Clim Services Rabat SARL,154742843528144,97660856,Rabat,1,Entretien climatisation du magasin,entretien,1,1400.00,20,virement,2026-04-02,1680.00
+FA-2026-015,ACHAT,2026-03-13,F7389,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,1,Clé USB 32 Go,marchandises,40,40.00,20,espèces,2026-05-12,23626.20
+FA-2026-015,ACHAT,2026-03-13,F7389,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,2,Cartouche d'encre noire compatible,marchandises,104,170.00,20,espèces,2026-05-12,23626.20
+FA-2026-015,ACHAT,2026-03-13,F7389,Distribution Bureautique du Nord SARL,943262705860214,58421083,Tanger,3,Classeur à levier A4,marchandises,43,9.50,20,espèces,2026-05-12,23626.20
